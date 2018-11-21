@@ -74,8 +74,14 @@ nav {
   margin: 58px 36px 0;
   background-image: url("../images/photos/4.construccion@2x.png");
   background-size: cover;
-  padding: 40px 24px;
+	background-position: center;
   text-align: center;
+}
+
+.main-image-shadow {
+  min-height: 428px;
+	padding: 40px 24px;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 h1, h6 {
