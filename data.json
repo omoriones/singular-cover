@@ -1,6 +1,7 @@
 [
   {
     "tituloGrande" : "Seguros online para pequeños negocios",
+    "imagenGrande" : "4.construccion@2x.png",
 
     "tituloBeneficio01" : "Un seguro a medida",
     "textoBeneficio01" : "Conocemos los riesgos relevantes de tu negocio y, al diseñar la póliza idónea, te protegemos mejor y tú recibes más por tu dinero. Nos enfocamos exclusivamente en los pequeños negocios y trabajamos con las grandes aseguradoras para diseñar el mejor producto personalizado para ti.",
@@ -13,6 +14,6 @@
     "tituloBeneficio03" : "Hazlo fácil",
     "textoBeneficio03" : "Te preguntamos la información estrictamente relevante para agilizar el proceso. Sabemos lo ocupado que estás, así que estamos a tu disposición cuándo y dónde quieras. Apostamos por la transparencia y dotar de claridad al proceso de contratación y a nuestra relación comercial.",
     "imagenBeneficio03" : "4.3.GettyImages-673116485.png"
-    
+
   }
 ]
