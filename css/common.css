@@ -1,0 +1,424 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	text-decoration: none;
+}
+
+*, html,body {
+   margin: 0;
+   padding: 0;
+}
+
+
+
+/* Fonts */
+@font-face {
+  font-family: 'Aileron Regular';
+  src:  url("../fonts/aileron/Aileron-Regular.woff") format('woff'),
+        url("../fonts/aileron/Aileron-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Aileron SemiBold';
+  src:  url("../fonts/aileron/Aileron-SemiBold.woff") format('woff'),
+        url("../fonts/aileron/Aileron-SemiBold.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Questrial Regular';
+  src:  url("../fonts/questrial/Questrial-Regular.woff") format('woff');
+}
+
+
+
+/* Navigation bar */
+nav {
+  height: 82px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.nav-content {
+  max-width: 1290px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 14px 0;
+  margin: 0 25px;
+}
+
+
+
+/* Main */
+#main {
+  width: 100%;
+}
+
+.background-yellow {
+  background-color: #FFEC00;
+}
+
+.main-background {
+  position: absolute;
+  top: 82px;
+  width: 100%;
+  height: 451px;
+  z-index: -1;
+}
+
+.main-image {
+  min-height: 428px;
+  margin: 58px 36px 0;
+  background-image: url("../images/photos/4.construccion@2x.png");
+  background-size: cover;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+h1, h6 {
+  font-family: 'Questrial Regular';
+  color: #ffffff;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Questrial Regular';
+  color: #282C36;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 70px;
+  margin-bottom: 52px;
+}
+
+h2 {
+  font-size: 46px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+p {
+  font-family: 'Aileron Regular';
+  font-size: 16px;
+  line-height: 25px;
+  color: #282C36;
+}
+
+
+
+/* Subscribe */
+.box-subscribe {
+  margin: 15px 0 20px;
+  text-align: center;
+}
+
+input, button {
+  height: 58px;
+  font-size: 18px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+button {
+  margin-left: -4px;
+  cursor: pointer;
+}
+
+input:focus, button:focus {
+  outline: 0;
+}
+
+input {
+  width: 280px;
+  font-family: 'Questrial Regular';
+  padding: 20px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  vertical-align: top;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(40, 44, 54, 0.4);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(40, 44, 54, 0.4);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(40, 44, 54, 0.4);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(40, 44, 54, 0.4);
+}
+
+button {
+  font-family: 'Aileron SemiBold';
+  padding: 0 25px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+.button-yellow {
+  background-color: #FFEC00;
+  color: #282C36;
+}
+
+.button-dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+
+/* Companies */
+.box-companies {
+  padding: 16px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.img-companies {
+  height: 24px;
+  margin: 10px 28px;
+}
+
+.content {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+
+
+/* Characteristics */
+.content-characteristics, .content-partners, .content-subscribe {
+  padding: 40px 25px 40px;
+}
+
+.box-characteristics {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 33px 0;
+}
+
+.box-char {
+  flex-basis: 100%;
+  text-align: center;
+  margin-right: 75px;
+}
+
+.box-char:last-of-type {
+  margin-right: 0;
+}
+
+.box-char-text p {
+  margin-top: 7px;
+}
+
+.img-char {
+  padding: 20px;
+}
+
+
+
+/* Benefits */
+.content-benefit {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 40px 25px 85px;
+  height: 309px;
+}
+
+.content-benefit-box {
+  flex-basis: 100%;
+  margin-right: 20px;
+}
+
+.content-benefit-box:last-child {
+  margin-right: 0;
+}
+
+.img-benefit {
+  width: 100%;
+  height: 100%;
+}
+
+.img-benefit-01 {
+  background-image: url("../images/photos/4.1.GettyImages-823328086.png");
+  background-size: cover;
+}
+
+.img-benefit-02 {
+  background-image: url("../images/photos/4.2.GettyImages-800341922.png");
+  background-size: cover;
+}
+
+.img-benefit-03 {
+  background-image: url("../images/photos/4.3.GettyImages-673116485.png");
+  background-size: cover;
+}
+
+.content-benefit-box-text-right {
+  width: 80%;
+  float: right;
+}
+
+.content-benefit-box-text-left {
+  width: 80%;
+  float: left;
+}
+
+
+/* Partners */
+.content-partners h2 {
+  margin-bottom: 6px;
+}
+.box-partners {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.img-partners {
+  height: 65px;
+  margin: 10px 60px;
+}
+
+
+
+/* Subscribe */
+.content-subscribe {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.content-subscribe h5 {
+  margin-bottom: 24px;
+}
+
+.content-subscribe h2 {
+  margin-bottom: 11px;
+}
+
+
+
+/* Footer */
+footer {
+}
+
+.background-black {
+  background-color: #000000;
+}
+
+.content-footer {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 100px 25px 40px;
+}
+
+.img-logo-footer{
+  float: left;
+}
+
+.content-footer-right {
+  text-align: right;
+}
+
+.content-footer-right p {
+  color: #ffffff;
+  font-size: 15px;
+
+}
+
+.content-footer-right p.help {
+  font-size: 17px;
+  opacity: 0.5;
+  margin-bottom: 12px;
+}
+
+.box-social {
+  margin-top: 25px;
+}
+
+.img-social {
+  margin-right: 8px;
+}
+
+.img-social:last-child {
+  margin-right: 0;
+}
+
+.content-footer-last {
+  height: 59px;
+  border-top: 1px solid rgba(151, 151, 151, 0.3);
+}
+
+.content-footer-last-box {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.content-footer-last p {
+  line-height: 58px;
+  font-size: 13px;
+  opacity: 0.5;
+  color: #ffffff;
+  float: left;
+  ma
+}
+
+.img-footer {
+  float: right;
+  margin: 0 auto;
+  height: 27px;
+  margin-top: 17px;
+  padding-right: 15px;
+}
+
+.img-footer:first-of-type {
+  padding-right: 0;
+}
+
+
+
+a {
+  color: #00A6FF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Separator */
+.separator {
+  width: 52px;
+  height: 6px;
+  margin-bottom: 12px;
+}
+
+.center {
+  margin: 0 auto 12px;
+}
