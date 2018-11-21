@@ -43,6 +43,7 @@ $(document).ready(function() {
 		$.each(data, function(key, value) {
 				//alert("key = " + key + "; value = " + value.tituloGrande);
 				$("#titulo-grande").text(value.tituloGrande);
+				$(".main-image").css('background-image', 'url("./images/photos/'+value.imagenGrande+'")');
 
 				$("#titulo-beneficio-01").text(value.tituloBeneficio01);
 				$("#texto-beneficio-01").text(value.textoBeneficio01);
@@ -78,19 +79,21 @@ $(document).ready(function() {
 		<div class="main-background background-yellow">
 		</div>
 		<div class="main-image">
-			<h1 id="titulo-grande">Seguros online para pequeños negocios</h1>
-			<h6>Sé de los primeros en poder darte de alta.</h6>
-			<div class="box-subscribe">
-				<form action="https://singularcover.us19.list-manage.com/subscribe/post?u=fdee229f22311f0dd153066c0&amp;id=2938debf2a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
-					<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Tu email" required/>
-					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fdee229f22311f0dd153066c0_2938debf2a" tabindex="-1" value=""></div>
-					<input type="submit" value="Notifícame" name="subscribe" id="mc-embedded-subscribe" class="button button-yellow">
-				</form>
-			</div>
-			<div class="box-tagline">
-				<div class="separator background-yellow center">
+			<div class="main-image-shadow">
+				<h1 id="titulo-grande">Seguros online para pequeños negocios</h1>
+				<h6>Sé de los primeros en poder darte de alta.</h6>
+				<div class="box-subscribe">
+					<form action="https://singularcover.us19.list-manage.com/subscribe/post?u=fdee229f22311f0dd153066c0&amp;id=2938debf2a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
+						<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Tu email" required/>
+						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fdee229f22311f0dd153066c0_2938debf2a" tabindex="-1" value=""></div>
+						<input type="submit" value="Notifícame" name="subscribe" id="mc-embedded-subscribe" class="button button-yellow">
+					</form>
 				</div>
-				<h6>Haz crecer tu negocio</h6>
+				<div class="box-tagline">
+					<div class="separator background-yellow center">
+					</div>
+					<h6>Haz crecer tu negocio</h6>
+				</div>
 			</div>
 		</div>
 		<div class="box-companies">
