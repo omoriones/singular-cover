@@ -138,10 +138,11 @@ p {
 input, button {
   height: 58px;
   font-size: 18px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 button {
+  width: 140px;
   margin-left: -4px;
   cursor: pointer;
 }
@@ -388,15 +389,17 @@ footer {
   ma
 }
 
-.img-footer {
+.images-footer {
   float: right;
-  margin: 0 auto;
+}
+
+.img-footer {
   height: 27px;
   margin-top: 17px;
   padding-right: 15px;
 }
 
-.img-footer:first-of-type {
+.img-footer:last-of-type {
   padding-right: 0;
 }
 
@@ -421,4 +424,207 @@ a:hover {
 
 .center {
   margin: 0 auto 12px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+
+/* Breakpoint */
+@media only screen and (max-width: 830px) {
+
+  nav {
+    height: 78px;
+  }
+
+  .logo {
+    padding: 4px 0;
+    margin: 15px 25px;
+    height: 46px;
+  }
+
+  .main-background {
+    top: 78px;
+  }
+
+  .main-image {
+    margin: 55px 25px 0;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+
+  h6 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  input, button {
+    width: 240px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+
+  .box-tagline {
+    display: none;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 38px;
+    text-align: left;
+  }
+
+  .box-characteristics {
+    flex-wrap: wrap;
+    margin: 0
+  }
+
+  .box-char {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .img-char {
+    padding: 0 20px 0 0;
+    float: left;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .box-char-text {
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .box-char-text p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 0;
+  }
+
+  .content-benefit {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .content-benefit-box {
+    margin-right: 0;
+  }
+
+  .img-benefit {
+    height: 200px;
+  }
+
+  .content-benefit-box-text-right {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .content-benefit-box-text-left {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 10px;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  .show {
+    display: none;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .box-partners {
+    padding: 0;
+    margin-top: 25px;
+  }
+
+  .img-partners {
+    height: 52px;
+    margin: 25px 30px 25px;
+  }
+
+  .content-subscribe {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .content-footer {
+    padding-top: 40px;
+  }
+
+  .img-logo-footer {
+    float: none;
+  }
+
+  .content-footer-right {
+    padding-top: 40px;
+    margin-top: 30px;
+    border-top: 1px solid rgba(151, 151, 151, 0.3);
+  }
+
+  .content-footer-right p {
+    text-align: left;
+  }
+
+  .content-footer-right {
+    text-align: left;
+  }
+
+  .content-footer-last p {
+    float: none;
+    text-align: center;
+  }
+
+  .images-footer {
+    float: none;
+    text-align: center;
+  }
+
+  .img-footer {
+    text-align: center;
+    margin: 15px 0
+  }
+
+  .content-footer-last {
+    height: 100%;
+  }
+
+
 }
