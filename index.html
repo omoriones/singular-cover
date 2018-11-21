@@ -9,9 +9,6 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/common.css" />
 
-	<!-- Javascript Internal Libreries -->
-	<script type="text/javascript" src="js/common.js"></script>
-
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="images/favicon.png" />
 
@@ -46,6 +43,18 @@ $(document).ready(function() {
 		$.each(data, function(key, value) {
 				//alert("key = " + key + "; value = " + value.tituloGrande);
 				$("#titulo-grande").text(value.tituloGrande);
+
+				$("#titulo-beneficio-01").text(value.tituloBeneficio01);
+				$("#texto-beneficio-01").text(value.textoBeneficio01);
+				$(".img-benefit-01").css('background-image', 'url("./images/photos/'+value.imagenBeneficio01+'")');
+
+				$("#titulo-beneficio-02").text(value.tituloBeneficio02);
+				$("#texto-beneficio-02").text(value.textoBeneficio02);
+				$(".img-benefit-02").css('background-image', 'url("./images/photos/'+value.imagenBeneficio02+'")');
+
+				$("#titulo-beneficio-03").text(value.tituloBeneficio03);
+				$("#texto-beneficio-03").text(value.textoBeneficio03);
+				$(".img-benefit-03").css('background-image', 'url("./images/photos/'+value.imagenBeneficio03+'")');
 
 		});
    });
@@ -137,8 +146,8 @@ $(document).ready(function() {
 				<div class="content-benefit-box-text-right">
 					<div class="separator background-yellow">
 					</div>
-					<h3>Un seguro a medida</h3>
-					<p>
+					<h3 id="titulo-beneficio-01">Un seguro a medida</h3>
+					<p id="texto-beneficio-01">
 						Conocemos los riesgos relevantes de tu negocio y, al diseñar la póliza idónea, te protegemos mejor y tú recibes más por tu dinero.
 						Nos enfocamos exclusivamente en los pequeños negocios y trabajamos con las grandes aseguradoras para diseñar el mejor producto personalizado
 						para ti.
@@ -160,8 +169,8 @@ $(document).ready(function() {
 				<div class="content-benefit-box-text-left">
 					<div class="separator background-yellow">
 					</div>
-					<h3>Seguros asequibles</h3>
-					<p>
+					<h3 id="titulo-beneficio-02">Seguros asequibles</h3>
+					<p id="texto-beneficio-02">
 						Conocemos las dificultades de liquidez de muchos pequeños negocios. Por eso, ofrecemos un sistema de pagos mensual para que estar protegido
 						 no sea una carga, sino algo que impulse tu negocio.
 					</p>
@@ -186,8 +195,8 @@ $(document).ready(function() {
 				<div class="content-benefit-box-text-right">
 					<div class="separator background-yellow">
 					</div>
-					<h3>Hazlo fácil</h3>
-					<p>
+					<h3 id="titulo-beneficio-03">Hazlo fácil</h3>
+					<p id="texto-beneficio-03">
 						Te preguntamos la información estrictamente relevante para agilizar el proceso. Sabemos lo ocupado que estás, así que estamos a tu disposición
 						 cuándo y dónde quieras. Apostamos por la transparencia y dotar de claridad al proceso de contratación y a nuestra relación comercial.
 					</p>
