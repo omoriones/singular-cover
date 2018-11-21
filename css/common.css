@@ -93,7 +93,7 @@ h2, h3, h4, h5 {
 h1 {
   font-size: 70px;
   line-height: 70px;
-  margin-bottom: 52px;
+	margin: 50px 0 52px;
 }
 
 h2 {
@@ -484,7 +484,7 @@ a:hover {
   h1 {
     font-size: 38px;
     line-height: 40px;
-    margin-bottom: 30px;
+		margin: 0 0 30px;
   }
 
   h6 {
@@ -492,7 +492,7 @@ a:hover {
     line-height: 22px;
   }
 
-  input {
+  input, .button  {
     width: 240px;
     font-size: 16px;
     display: block;
