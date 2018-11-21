@@ -187,25 +187,24 @@ input {
 .button-yellow {
   background-color: #FFEC00;
   color: #282C36;
-  transition: ease 0.3s;
+  transition: 0.6s all cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .button-yellow:hover {
   background-color: #000000;
   color: #ffffff;
-  transition: ease 0.3s;
+  transition: 0.6s all cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .button-dark {
   background-color: #000000;
   color: #ffffff;
-  transition: ease 0.3s;
+  transition: 0.6s all cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .button-dark:hover {
-  background-color: #FFEC00;
-  color: #282C36;
-  transition: ease 0.3s;
+  background-color: #606060;
+  transition: 0.6s all cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 
