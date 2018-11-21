@@ -3,6 +3,7 @@
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 	text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 *, html,body {
@@ -28,6 +29,7 @@
 @font-face {
   font-family: 'Questrial Regular';
   src:  url("../fonts/questrial/Questrial-Regular.woff") format('woff');
+  font-weight: 100;
 }
 
 
@@ -135,19 +137,19 @@ p {
   text-align: center;
 }
 
-input, button {
+input {
   height: 58px;
   font-size: 18px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-button {
+.button {
   width: 140px;
   margin-left: -4px;
   cursor: pointer;
 }
 
-input:focus, button:focus {
+input:focus, .button:focus {
   outline: 0;
 }
 
@@ -173,7 +175,7 @@ input {
   color: rgba(40, 44, 54, 0.4);
 }
 
-button {
+.button {
   font-family: 'Aileron SemiBold';
   padding: 0 25px;
   border: none;
@@ -183,11 +185,25 @@ button {
 .button-yellow {
   background-color: #FFEC00;
   color: #282C36;
+  transition: ease 0.3s;
+}
+
+.button-yellow:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: ease 0.3s;
 }
 
 .button-dark {
   background-color: #000000;
   color: #ffffff;
+  transition: ease 0.3s;
+}
+
+.button-dark:hover {
+  background-color: #FFEC00;
+  color: #282C36;
+  transition: ease 0.3s;
 }
 
 
@@ -474,7 +490,7 @@ a:hover {
     line-height: 22px;
   }
 
-  input, button {
+  input {
     width: 240px;
     font-size: 16px;
     display: block;
