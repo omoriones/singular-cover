@@ -250,6 +250,10 @@ button {
   height: 309px;
 }
 
+.content-benefit:last {
+  margin: 40px 25px 45px;
+}
+
 .content-benefit-box {
   flex-basis: 100%;
   margin-right: 20px;
@@ -294,6 +298,7 @@ button {
 .content-partners h2 {
   margin-bottom: 6px;
 }
+
 .box-partners {
   padding: 60px 0;
   text-align: center;
@@ -309,7 +314,7 @@ button {
 /* Subscribe */
 .content-subscribe {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 
@@ -332,13 +337,14 @@ footer {
 }
 
 .content-footer {
-  max-width: 1240px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: 100px 25px 40px;
 }
 
 .img-logo-footer{
   float: left;
+  margin-top: 10px;
 }
 
 .content-footer-right {
@@ -348,10 +354,11 @@ footer {
 .content-footer-right p {
   color: #ffffff;
   font-size: 15px;
-
+  line-height: 23px;
 }
 
 .content-footer-right p.help {
+  font-family: 'Questrial Regular';
   font-size: 17px;
   opacity: 0.5;
   margin-bottom: 12px;
@@ -375,7 +382,7 @@ footer {
 }
 
 .content-footer-last-box {
-  max-width: 1240px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: 0 25px;
 }
@@ -561,12 +568,16 @@ a:hover {
   h2 {
     font-size: 28px;
     line-height: 38px;
-    text-align: center;
+    text-align: left;
   }
 
   h5 {
     font-size: 14px;
     line-height: 20px;
+    text-align: center;
+  }
+
+  .content-partners h2 {
     text-align: center;
   }
 
@@ -585,12 +596,17 @@ a:hover {
     padding-bottom: 40px;
   }
 
+  .content-subscribe h2 {
+    text-align: center;
+  }
+
   .content-footer {
     padding-top: 40px;
   }
 
   .img-logo-footer {
     float: none;
+    margin-top: 0;
   }
 
   .content-footer-right {
