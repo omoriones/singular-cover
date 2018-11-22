@@ -160,15 +160,19 @@ input {
   vertical-align: top;
 }
 
-input[type=submit] {
-    -webkit-appearance: none;
-		-webkit-border-radius: 4px 0 0 4px;
-}
-
 .button {
   width: 140px;
   margin-left: -4px;
   cursor: pointer;
+  font-family: 'Aileron SemiBold';
+  padding: 0 25px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+	-webkit-border-radius: 0 4px 4px 0;
 }
 
 input:focus, .button:focus {
@@ -186,13 +190,6 @@ input:focus, .button:focus {
 }
 :-moz-placeholder { /* Firefox 18- */
   color: rgba(40, 44, 54, 0.4);
-}
-
-.button {
-  font-family: 'Aileron SemiBold';
-  padding: 0 25px;
-  border: none;
-  border-radius: 0 4px 4px 0;
 }
 
 .button-yellow {
