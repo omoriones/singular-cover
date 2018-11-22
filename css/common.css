@@ -145,6 +145,7 @@ p {
 }
 
 input {
+	-webkit-appearance: none;
   height: 58px;
   font-size: 18px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
