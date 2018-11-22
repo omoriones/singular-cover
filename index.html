@@ -43,19 +43,19 @@ $(document).ready(function() {
 		$.each(data, function(key, value) {
 				//alert("key = " + key + "; value = " + value.tituloGrande);
 				$("#titulo-grande").text(value.tituloGrande);
-				$(".main-image").css('background-image', 'url("./images/photos/'+value.imagenGrande+'")');
+				$(".main-image").css('background-image', 'url("/images/photos/'+value.imagenGrande+'")');
 
 				$("#titulo-beneficio-01").text(value.tituloBeneficio01);
 				$("#texto-beneficio-01").text(value.textoBeneficio01);
-				$(".img-benefit-01").css('background-image', 'url("./images/photos/'+value.imagenBeneficio01+'")');
+				$(".img-benefit-01").css('background-image', 'url("/images/photos/'+value.imagenBeneficio01+'")');
 
 				$("#titulo-beneficio-02").text(value.tituloBeneficio02);
 				$("#texto-beneficio-02").text(value.textoBeneficio02);
-				$(".img-benefit-02").css('background-image', 'url("./images/photos/'+value.imagenBeneficio02+'")');
+				$(".img-benefit-02").css('background-image', 'url("/images/photos/'+value.imagenBeneficio02+'")');
 
 				$("#titulo-beneficio-03").text(value.tituloBeneficio03);
 				$("#texto-beneficio-03").text(value.textoBeneficio03);
-				$(".img-benefit-03").css('background-image', 'url("./images/photos/'+value.imagenBeneficio03+'")');
+				$(".img-benefit-03").css('background-image', 'url("/images/photos/'+value.imagenBeneficio03+'")');
 
 		});
    });
