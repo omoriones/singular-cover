@@ -16,19 +16,19 @@
 /* Fonts */
 @font-face {
   font-family: 'Aileron Regular';
-  src:  url("../fonts/aileron/Aileron-Regular.woff") format('woff'),
-        url("../fonts/aileron/Aileron-Regular.woff2") format('woff2');
+  src:  url("/fonts/aileron/Aileron-Regular.woff") format('woff'),
+        url("/fonts/aileron/Aileron-Regular.woff2") format('woff2');
 }
 
 @font-face {
   font-family: 'Aileron SemiBold';
-  src:  url("../fonts/aileron/Aileron-SemiBold.woff") format('woff'),
-        url("../fonts/aileron/Aileron-SemiBold.woff2") format('woff2');
+  src:  url("/fonts/aileron/Aileron-SemiBold.woff") format('woff'),
+        url("/fonts/aileron/Aileron-SemiBold.woff2") format('woff2');
 }
 
 @font-face {
   font-family: 'Questrial Regular';
-  src:  url("../fonts/questrial/Questrial-Regular.woff") format('woff');
+  src:  url("/fonts/questrial/Questrial-Regular.woff") format('woff');
 }
 
 
@@ -72,7 +72,7 @@ nav {
 .main-image {
   min-height: 428px;
   margin: 58px 36px 0;
-  background-image: url("../images/photos/4.construccion@2x.png");
+  background-image: url("/images/photos/4.construccion@2x.png");
   background-size: cover;
 	background-position: center;
   text-align: center;
@@ -292,17 +292,17 @@ input {
 }
 
 .img-benefit-01 {
-  background-image: url("../images/photos/4.1.GettyImages-823328086.png");
+  background-image: url("/images/photos/4.1.GettyImages-823328086.png");
   background-size: cover;
 }
 
 .img-benefit-02 {
-  background-image: url("../images/photos/4.2.GettyImages-800341922.png");
+  background-image: url("/images/photos/4.2.GettyImages-800341922.png");
   background-size: cover;
 }
 
 .img-benefit-03 {
-  background-image: url("../images/photos/4.3.GettyImages-673116485.png");
+  background-image: url("/images/photos/4.3.GettyImages-673116485.png");
   background-size: cover;
 }
 
