@@ -160,6 +160,11 @@ input {
   vertical-align: top;
 }
 
+input[type=submit] {
+    -webkit-appearance: none;
+		-webkit-border-radius: 4px 0 0 4px;
+}
+
 .button {
   width: 140px;
   margin-left: -4px;
@@ -513,6 +518,11 @@ a:hover {
     margin-bottom: 10px;
 	  height: 44px;
   }
+
+	input[type=submit] {
+	    -webkit-appearance: none;
+			-webkit-border-radius: 4px;
+	}
 
   .box-tagline {
     display: none;
