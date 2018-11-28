@@ -102,6 +102,13 @@ nav {
 	text-align: center;
 }
 
+.main-image-seguros-para-tiendas-de-ropa {
+	background-image: url("/images/photos/28.tienda-ropa@2x.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
 .main-image-shadow {
   min-height: 428px;
 	padding: 40px 24px;
@@ -374,6 +381,21 @@ input:focus, .button:focus {
 
 .img-benefit-03-seguros-para-peluquerias {
   background-image: url("/images/photos/12.3.GettyImages-627471669.jpg");
+  background-size: cover;
+}
+
+.img-benefit-01-seguros-para-tiendas-de-ropa {
+  background-image: url("/images/photos/28.1.GettyImages-558270639.jpg");
+  background-size: cover;
+}
+
+.img-benefit-02-seguros-para-tiendas-de-ropa {
+  background-image: url("/images/photos/28.2.GettyImages-650160199.jpg");
+  background-size: cover;
+}
+
+.img-benefit-03-seguros-para-tiendas-de-ropa {
+  background-image: url("/images/photos/28.3.GettyImages-608166769.jpg");
   background-size: cover;
 }
 
