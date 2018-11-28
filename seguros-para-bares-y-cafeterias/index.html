@@ -34,39 +34,6 @@
 <body>
 
 
-<!-- JSON script -->
-<script type="text/javascript" >
-
-$(document).ready(function() {
-
-	$.getJSON("data.json", function(data) {
-		var emp = '';
-		$.each(data, function(key, value) {
-				//alert("key = " + key + "; value = " + value.tituloGrande);
-				$("#titulo-grande").text(value.tituloGrande);
-				$(".main-image").css('background-image', 'url("/images/photos/'+value.imagenGrande+'")');
-
-				$("#titulo-beneficio-01").text(value.tituloBeneficio01);
-				$("#texto-beneficio-01").text(value.textoBeneficio01);
-				$(".img-benefit-01").css('background-image', 'url("/images/photos/'+value.imagenBeneficio01+'")');
-
-				$("#titulo-beneficio-02").text(value.tituloBeneficio02);
-				$("#texto-beneficio-02").text(value.textoBeneficio02);
-				$(".img-benefit-02").css('background-image', 'url("/images/photos/'+value.imagenBeneficio02+'")');
-
-				$("#titulo-beneficio-03").text(value.tituloBeneficio03);
-				$("#texto-beneficio-03").text(value.textoBeneficio03);
-				$(".img-benefit-03").css('background-image', 'url("/images/photos/'+value.imagenBeneficio03+'")');
-
-		});
-   });
-
- });
-
-</script>
-
-
-
   <!-- Navigation bar -->
   <nav>
 		<div class="nav-content">
@@ -79,9 +46,9 @@ $(document).ready(function() {
   <section id="main">
 		<div class="main-background background-yellow">
 		</div>
-		<div class="main-image">
+		<div class="main-image main-image-seguros-para-bares-y-cafeterias">
 			<div class="main-image-shadow">
-				<h1 id="titulo-grande">Seguros online para pequeños negocios</h1>
+				<h1 id="titulo-grande">Seguros para bares y cafeterías</h1>
 				<h6>Sé de los primeros en poder darte de alta.</h6>
 				<div class="box-subscribe">
 					<form action="https://singularcover.us19.list-manage.com/subscribe/post?u=fdee229f22311f0dd153066c0&amp;id=2938debf2a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
@@ -143,18 +110,18 @@ $(document).ready(function() {
   <section class="content">
 		<div class="content-benefit">
 			<div class="content-benefit-box">
-				<div class="img-benefit img-benefit-01">
+				<div class="img-benefit img-benefit-01-seguros-para-bares-y-cafeterias">
 				</div>
 			</div>
 			<div class="content-benefit-box">
 				<div class="content-benefit-box-text-right">
 					<div class="separator background-yellow">
 					</div>
-					<h3 id="titulo-beneficio-01">Un seguro a medida</h3>
-					<p id="texto-beneficio-01">
-						Conocemos los riesgos relevantes de tu negocio y, al diseñar la póliza idónea, te protegemos mejor y tú recibes más por tu dinero.
-						Nos enfocamos exclusivamente en los pequeños negocios y trabajamos con las grandes aseguradoras para diseñar el mejor producto personalizado
-						para ti.
+					<h3>Seguros para bares a medida</h3>
+					<p>
+						Aplicamos la última tecnología para ofrecerte una póliza que cubre los riesgos verdaderamente relevantes para tu bar. Estás mejor
+						protegido pagando solo por lo que realmente necesitas. Nos enfocamos exclusivamente en los pequeños negocios, y en los bares en particular,
+						y trabajamos con las mejores aseguradoras para diseñar el mejor producto personalizado para ti.
 					</p>
 				</div>
 			</div>
@@ -166,22 +133,22 @@ $(document).ready(function() {
   <section class="content">
 		<div class="content-benefit">
 			<div class="content-benefit-box hide">
-				<div class="img-benefit img-benefit-02">
+				<div class="img-benefit img-benefit-02-seguros-para-bares-y-cafeterias">
 				</div>
 			</div>
 			<div class="content-benefit-box">
 				<div class="content-benefit-box-text-left">
 					<div class="separator background-yellow">
 					</div>
-					<h3 id="titulo-beneficio-02">Seguros asequibles</h3>
-					<p id="texto-beneficio-02">
-						Conocemos las dificultades de liquidez de muchos pequeños negocios. Por eso, ofrecemos un sistema de pagos mensual para que estar protegido
-						 no sea una carga, sino algo que impulse tu negocio.
+					<h3>Hazlo fácil</h3>
+					<p>
+						Es 100% online y te permite contratar seguros para bares en 10 minutos. Te preguntamos la información estrictamente relevante para agilizar
+						el proceso y nos enfocamos en que sea simple, rápido, transparente y tu cobertura instantánea.
 					</p>
 				</div>
 			</div>
 			<div class="content-benefit-box show">
-				<div class="img-benefit img-benefit-02">
+				<div class="img-benefit img-benefit-02-seguros-para-bares-y-cafeterias">
 				</div>
 			</div>
 		</div>
@@ -192,17 +159,18 @@ $(document).ready(function() {
   <section class="content">
 		<div class="content-benefit">
 			<div class="content-benefit-box">
-				<div class="img-benefit img-benefit-03">
+				<div class="img-benefit img-benefit-03-seguros-para-bares-y-cafeterias">
 				</div>
 			</div>
 			<div class="content-benefit-box">
 				<div class="content-benefit-box-text-right">
 					<div class="separator background-yellow">
 					</div>
-					<h3 id="titulo-beneficio-03">Hazlo fácil</h3>
-					<p id="texto-beneficio-03">
-						Te preguntamos la información estrictamente relevante para agilizar el proceso. Sabemos lo ocupado que estás, así que estamos a tu disposición
-						 cuándo y dónde quieras. Apostamos por la transparencia y dotar de claridad al proceso de contratación y a nuestra relación comercial.
+					<h3>El mejor valor</h3>
+					<p>
+						Conocemos las dificultades de liquidez de muchos bares y cafeterías. Por eso, ofrecemos un sistema de pagos mensual para que estar protegido
+						no sea una carga, sino algo que impulse tu negocio. Además utilizamos la última tecnología para ofrecer los mejores precios para una cobertura
+						totalmente personalizada.
 					</p>
 				</div>
 			</div>
@@ -248,7 +216,7 @@ $(document).ready(function() {
 			<div class="content-footer-right">
 				<p class="help">Ayuda</p>
 				<p><a href="mailto:ayuda@singularcover.com">ayuda@singularcover.com</a></p>
-				<p>93 722 73 54</p>
+				<p>645 199 177</p>
 				<p>Lun - Vie</p>
 				<p>9:00 – 18:00</p>
 				<div class="box-social">
