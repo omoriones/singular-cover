@@ -88,6 +88,13 @@ nav {
 	text-align: center;
 }
 
+.main-image-seguros-para-construccion {
+	background-image: url("/images/photos/4.construccion@2x.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
 .main-image-shadow {
   min-height: 428px;
 	padding: 40px 24px;
@@ -330,6 +337,21 @@ input:focus, .button:focus {
 
 .img-benefit-03-seguros-para-bares-y-cafeterias {
   background-image: url("/images/photos/14.3.GettyImages-623102582.jpg");
+  background-size: cover;
+}
+
+.img-benefit-01-seguros-para-construccion {
+  background-image: url("/images/photos/4.1.GettyImages-823328086.jpg");
+  background-size: cover;
+}
+
+.img-benefit-02-seguros-para-construccion {
+  background-image: url("/images/photos/4.2.GettyImages-800341922.jpg");
+  background-size: cover;
+}
+
+.img-benefit-03-seguros-para-construccion {
+  background-image: url("/images/photos/4.3.GettyImages-673116485.jpg");
   background-size: cover;
 }
 
