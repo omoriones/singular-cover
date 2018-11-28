@@ -75,7 +75,14 @@ nav {
 }
 
 .main-image-seguros-para-alimentacion {
-	background-image: url("/images/photos/22.autoservicio@2x.jpg.png");
+	background-image: url("/images/photos/22.autoservicio@2x.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.main-image-seguros-para-bares-y-cafeterias {
+	background-image: url("/images/photos/14.cafeteria@2x.jpg");
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -308,6 +315,21 @@ input:focus, .button:focus {
 
 .img-benefit-03-seguros-para-alimentacion {
   background-image: url("/images/photos/22.3.GettyImages-988478550.jpg");
+  background-size: cover;
+}
+
+.img-benefit-01-seguros-para-bares-y-cafeterias {
+  background-image: url("/images/photos/14.1.GettyImages-672161471.jpg");
+  background-size: cover;
+}
+
+.img-benefit-02-seguros-para-bares-y-cafeterias {
+  background-image: url("/images/photos/14.2.GettyImages-730133181.jpg");
+  background-size: cover;
+}
+
+.img-benefit-03-seguros-para-bares-y-cafeterias {
+  background-image: url("/images/photos/14.3.GettyImages-623102582.jpg");
   background-size: cover;
 }
 
