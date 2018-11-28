@@ -74,6 +74,13 @@ nav {
   margin: 58px 36px 0;
 }
 
+.main-image-generic {
+	background-image: url("/images/photos/4.construccion@2x.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
 .main-image-seguros-para-alimentacion {
 	background-image: url("/images/photos/22.autoservicio@2x.jpg");
 	background-size: cover;
@@ -322,6 +329,21 @@ input:focus, .button:focus {
 .img-benefit {
   width: 100%;
   height: 100%;
+}
+
+.img-benefit-01 {
+  background-image: url("/images/photos/4.1.GettyImages-823328086.jpg");
+  background-size: cover;
+}
+
+.img-benefit-02 {
+  background-image: url("/images/photos/4.2.GettyImages-800341922.jpg");
+  background-size: cover;
+}
+
+.img-benefit-03 {
+  background-image: url("/images/photos/4.3.GettyImages-673116485.jpg");
+  background-size: cover;
 }
 
 .img-benefit-01-seguros-para-alimentacion {
